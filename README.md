@@ -1,5 +1,25 @@
 # Jobs form to attract Symfony developers ;-)
 
+## Installation
+
+### Install dependencies
+```
+php composer.phar install
+```
+
+### Apache configuration
+```
+<VirtualHost *:80>
+    ServerName jobs.dev
+    DocumentRoot "path/to/jobs/web"
+    DirectoryIndex index.php
+    <Directory "path/to/jobs/web">
+        AllowOverride All
+        Allow from all
+    </Directory>
+</VirtualHost>
+```
+
 ## App description
 
 ### FORM
