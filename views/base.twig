@@ -1,0 +1,61 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}Get a job @antistatique{% endblock %}</title>
+        <meta name="description" content="{% block meta_description %}{% endblock %}">
+
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container center">
+                    <a class="btn btn-navbar" href="#" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="./index.html"><img src="images/logo.png" class="logohead"></a>
+                    <div class="nav-collapse">
+                        <ul class="nav menu">
+                            <li><a href="/fr">home</a></li>
+                            <li><a href="http://www.antistatique.net/fr/portfolio.html" title="Portfolio - Nos créations web - webmarketing ainsi que nos applications GIS en un coup d'oeil.">Portfolio</a></li>
+                            <li><a href="http://www.antistatique.net/fr/solutions.html" title="Solutions - Antistatique.net vous présente ses solutions, webdesign, sites internet, CMS, symfony, GIS, webmarketing ...">Solutions</a></li>
+                            <li><a href="http://www.antistatique.net/fr/agence-web-interactive-lausanne.html" title="L'agence web interactive à Lausanne, Antistatique.net">L'agence</a></li>
+                            <li><a href="http://www.antistatique.net/fr/contact.html" title="Contact - Antistatique.net Sàrl, rue de Sébeillon 9b, Lausanne">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% block body %}
+        {% endblock %}
+        <section id="interest">
+            <div class="container center">
+                <div class="row">
+                    <div class="span6 offset3 ctr">
+                        <h2>How it works ?</h2>
+                        <p class="info">Want to know how it works?<br/>You'll find this code on github</p>
+                        <a href="#" class="btn-primary">GO TO GITHUB!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container center">
+            </div>
+        </footer>   
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
+
+        <script src="/js/code.js"></script>
+
+    </body>
+</html>

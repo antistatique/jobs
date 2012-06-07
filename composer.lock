@@ -1,5 +1,5 @@
 {
-    "hash": "fa7b924dbbc79a0e00844e15d5ec2bfe",
+    "hash": "88113bc1d70425c0daea506dbca99539",
     "packages": [
         {
             "package": "kriswallsmith/buzz",
@@ -9,13 +9,13 @@
         {
             "package": "pimple/pimple",
             "version": "dev-master",
-            "source-reference": "v1.0.0"
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
         },
         {
             "package": "pimple/pimple",
             "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
+            "source-reference": "v1.0.0"
         },
         {
             "package": "sensiolabs/connect",
@@ -25,19 +25,13 @@
         {
             "package": "silex/silex",
             "version": "dev-master",
-            "source-reference": "8b7796f94154e0cb51db3733e4262de50114c121"
-        },
-        {
-            "package": "silex/silex",
-            "version": "dev-master",
             "alias-pretty-version": "1.0.x-dev",
             "alias-version": "1.0.9999999.9999999-dev"
         },
         {
-            "package": "symfony/event-dispatcher",
+            "package": "silex/silex",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "source-reference": "8b7796f94154e0cb51db3733e4262de50114c121"
         },
         {
             "package": "symfony/event-dispatcher",
@@ -45,15 +39,21 @@
             "source-reference": "30d3f5da80c2aeab15bcdb5a7d448d15bc294b23"
         },
         {
-            "package": "symfony/http-foundation",
+            "package": "symfony/event-dispatcher",
             "version": "dev-master",
-            "source-reference": "d9ef2afd0218415a8c04ea48a2c83bb5b8f0f51c"
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/http-foundation",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "source-reference": "d9ef2afd0218415a8c04ea48a2c83bb5b8f0f51c"
         },
         {
             "package": "symfony/http-kernel",
@@ -80,6 +80,11 @@
         {
             "package": "twig/twig",
             "version": "1.6.0"
+        },
+        {
+            "package": "twitter/bootstrap",
+            "version": "dev-master",
+            "source-reference": "master"
         }
     ],
     "packages-dev": null,
@@ -88,6 +93,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "sensiolabs/connect": 20
+        "sensiolabs/connect": 20,
+        "twitter/bootstrap": 20
     }
 }

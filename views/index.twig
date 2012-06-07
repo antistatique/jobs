@@ -1,1 +1,20 @@
-Hello world
+{% extends 'base.twig' %}
+
+{% block body %}
+        <header>
+            <div class="container center">
+                <div class="row">
+                    <div class="span12 icon">
+                        <img src="images/target.png">
+                    </div>
+                    <div class="span6 offset5 headtext">
+                        <h1>We are looking for a Symfony developer !<br/>Check if you fit our requirement.</h1>
+                        <p class="lead"><a href="#">More infos</a></p>
+                        <div class="button-ctr">
+                            <a data-toggle="modal" href="#myModal" class="btn-primary big">CHECK YOUR PROFILE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+{% endblock %}
