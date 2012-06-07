@@ -1,0 +1,19 @@
+{
+    "name": "antistatique/jobs",
+    "description": "Jobs form",
+    "require": {
+        "silex/silex": "1.0.x",
+        "twig/twig": "1.6.0",
+        "sensiolabs/connect": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Gilles Doge",
+            "email": "gilles@antistatique.net"
+        },
+        {
+            "name": "Marc Friederich",
+            "email": "marc@antistatique.net"
+        }
+    ]
+}
